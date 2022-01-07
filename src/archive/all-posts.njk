@@ -1,0 +1,15 @@
+---
+layout: layouts/page.njk
+title: All posts
+---
+
+{% for year, yearPosts in collections.postsByYear %}
+  <h2 class="all-posts-list">{{ year }}</h2>
+  <ul class="postlist">
+    {% for post in yearPosts | reverse %}
+      <li>
+        <a href="{{ post.url | url }}" class="post-title">{{ post.data.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

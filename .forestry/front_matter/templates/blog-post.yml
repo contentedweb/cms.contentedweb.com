@@ -1,0 +1,24 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Page Title
+- name: date
+  type: datetime
+  label: Date
+  description: 'Note: the date pickers struggles with AM / PM values, and <a href="https://forestry.io/docs/settings/fields/datetime/"
+    title="" target="_blank">forestry state it does not handle 24 hour clock</a>!
+    So you can probably only enter hours in the range 1 - 12.'
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: hh:mm A
+    display_utc: false
+    export_format: YYYY-MM-DDThh:mm:ss
+  default: now
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags

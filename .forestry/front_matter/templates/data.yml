@@ -1,0 +1,82 @@
+---
+label: Data
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: startYear
+  type: number
+  label: Copyright start
+  description: Year copyright starts on
+  default: 2022
+  required: true
+  config:
+    min: 1900
+    max: 
+    step: 
+- name: theme
+  type: select
+  default: none
+  config:
+    required: true
+    options:
+    - olden
+    - sky
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Theme
+- name: author
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Your name
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+  - name: url
+    type: text
+    config:
+      required: false
+    label: About you
+    description: Link to information about you
+  label: Author
+  description: Info about yourself
+- name: feed
+  type: field_group
+  config: {}
+  fields:
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Description
+    description: Leave blank to take the description from the site
+  - name: id
+    type: text
+    config:
+      required: false
+    label: URL
+    description: Leave blank to you the same URL as for the site. Or customise it
+      (https://www.mysite.com/feed)
+  label: RSS Feed
+  description: Info displayed in your RSS feed
+pages:
+- src/_data/metadata.json

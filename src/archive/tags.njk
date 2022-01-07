@@ -1,0 +1,9 @@
+---
+title: Tags
+layout: layouts/page.njk
+---
+
+{% for tag in collections.tagList %}
+  {% set tagUrl %}/archive/tagged/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{% endfor %}  

@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+<article>
+  <header>
+      <h1>{{ title }}</h1> 
+      <h2 class="published">
+          <time class="dt-published" datetime="{{ page.date | dateFormatMachine }}">
+              <span class="date-day">{{ page.date.getDate() }}</span> 
+              <span class="date-month">{{ page.date.toLocaleString('default', { month: 'long' }) }}</span>, 
+              <span class="date-year">{{ page.date.getFullYear() }}</span>
+          </time>
+      </h2>
+  </header>
+  {{ content | safe }} 
+
+  <hr>
+  <div class="tagged">Tagged: 
+    {%- for tag in tags | filterTagList -%}
+    {%- set tagUrl %}/archive/tagged/{{ tag | slug }}/{% endset -%}
+    <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {%- endfor %}
+  </div>
+
+  {%- if collections.posts %}
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {%- if nextPost or previousPost %}
+  <div class="prev-next">
+    {%- if nextPost %}<a class="next" rel="next" href="{{ nextPost.url | url }}">« Newer</a>{% endif %}
+    {%- if nextPost and previousPost%} | {% endif %}
+    {%- if previousPost %}<a class="prev" rel="prev" href="{{ previousPost.url | url }}">Older »</a>{% endif %}
+  </div>
+  {%- endif %}
+  {%- endif %}
+</article>
+
