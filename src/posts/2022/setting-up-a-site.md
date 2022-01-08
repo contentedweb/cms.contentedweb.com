@@ -9,7 +9,7 @@ title: Setting up a site
 ---
 ## Introduction
 
-This post will take you through the steps required to setup a site using ContentedWeb.  It is assumed you are comfortable setting up accounts with services like online services, but you do not need any prior experience in using the tools. 
+This post will take you through the steps required to setup a site using ContentedWeb.  It is assumed you are comfortable setting up accounts with services like online services, but you do not need any prior experience in using the tools.
 
 There are two services you need to configure: [GitHub](https://github.com/) and [Forestry](https://forestry.io/), in that order. These instructions assume you are new to GitHub and Forestry. If you are an experienced GitHub or Forestry, user you probably don't need them.
 
@@ -27,8 +27,8 @@ Next you need to copy the repository of the template site to you account. To do 
 
 ![](/assets/images/eleventy-starter-1.png)
 
-There are two ways to copy this repository into your account. You can either click on the "Fork" button towards the top right of the screen or you can click on the green "Use this template" button. In this guide we will do the latter. So click on that button.
+There are two ways to copy this repository into your account. You can either click on the "Fork" button towards the top right of the screen or you can click on the green "Use this template" button. In this guide we will do the latter. So click on that button. You will see a screen like this:
 
-You will
+![](/assets/images/eleventy-starter-2.png)
 
- 
+For the repository name use the following: "**your-username**.github.io". So in the above example we would enter "contentedweb.github.io". You can give the repository a description if you want. Keep the repository public (since you will anyway be creating a public website from it) and ensure you **tick the "Include all branches" checkbox**.
