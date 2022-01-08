@@ -9,9 +9,9 @@ title: Setting up a site
 ---
 ## Introduction
 
-This post will take you through the steps required to setup a site using ContentedWeb.  It is assumed you are comfortable setting up accounts with services like GitHub, but you do not need any prior experience in using the tools.
+This post will take you through the steps required to setup a site using ContentedWeb.  It is assumed you are comfortable setting up accounts with services like online services, but you do not need any prior experience in using the tools. 
 
-There are two services you need to configure: [GitHub](https://github.com/) and [Forestry](https://forestry.io/), in that order.
+There are two services you need to configure: [GitHub](https://github.com/) and [Forestry](https://forestry.io/), in that order. These instructions assume you are new to GitHub and Forestry. If you are an experienced GitHub or Forestry, user you probably don't need them.
 
 ## GitHub
 
@@ -23,4 +23,6 @@ Once your account is created, login and keep a note of your username.
 
 ### Step 2 - copy the code
 
-Next you need to copy the repository of the template site to you account. To do this go to the [eleventy-forestry-starter](https://github.com/contentedweb/eleventy-forestry-starter) repository. You will see a screen that should look like this:
+Next you need to copy the repository of the template site to you account. To do this go to the [eleventy-forestry-starter](https://github.com/contentedweb/eleventy-forestry-starter) repository. You will see a screen that looks like this:
+
+![](/assets/images/eleventy-starter-1.png)
