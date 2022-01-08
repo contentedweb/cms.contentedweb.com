@@ -6,7 +6,7 @@
 	
 	<link href="https://templ.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://templ.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-02-01T00:00:00Z</updated>
+	<updated>2022-01-08T06:59:06Z</updated>
 	<id>https://templ.contentedweb.com/</id>
 	<author>
 		<name>Kalinka</name>
@@ -15,11 +15,35 @@
 	
 	
 	<entry>
-		<title>Another post</title>
-		<link href="https://templ.contentedweb.com/posts/2022/post-four/"/>
-		<updated>2022-02-01T00:00:00Z</updated>
-		<id>https://templ.contentedweb.com/posts/2022/post-four/</id>
-		<content type="html">&lt;p&gt;Write your content here.&lt;/p&gt;
+		<title>Setting up a site</title>
+		<link href="https://templ.contentedweb.com/posts/2022/setting-up-a-site/"/>
+		<updated>2022-01-08T06:59:06Z</updated>
+		<id>https://templ.contentedweb.com/posts/2022/setting-up-a-site/</id>
+		<content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This post will take you through the steps required to setup a site using ContentedWeb.  It is assumed you are comfortable setting up accounts with services like online services, but you do not need any prior experience in using the tools.&lt;/p&gt;
+&lt;p&gt;There are two services you need to configure: &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry&lt;/a&gt;, in that order. These instructions assume you are new to GitHub and Forestry. If you are an experienced GitHub or Forestry, user you probably don&#39;t need them.&lt;/p&gt;
+&lt;h2&gt;GitHub&lt;/h2&gt;
+&lt;h3&gt;Step 1 - sign up&lt;/h3&gt;
+&lt;p&gt;If you do not already have a GitHub account, you need to create one. Got to the &lt;a href=&quot;https://github.com/&quot;&gt;GitHub &lt;/a&gt;site and click on Sign Up and then follow the instructions.&lt;/p&gt;
+&lt;p&gt;Once your account is created, login and keep a note of your username.&lt;/p&gt;
+&lt;h3&gt;Step 2 - copy the code&lt;/h3&gt;
+&lt;p&gt;Next you need to copy the repository of the template site to you account. To do this go to the &lt;a href=&quot;https://github.com/contentedweb/eleventy-forestry-starter&quot;&gt;eleventy-forestry-starter&lt;/a&gt; repository. You will see a screen that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;There are two ways to copy this repository into your account. You can either click on the &amp;quot;Fork&amp;quot; button towards the top right of the screen or you can click on the green &amp;quot;Use this template&amp;quot; button. In this guide we will do the latter. So click on that button. You will see a screen like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;For the repository name use the following: &amp;quot;&lt;strong&gt;your-username&lt;/strong&gt;.github.io&amp;quot;. So in the above example we would enter &amp;quot;&lt;a href=&quot;http://contentedweb.github.io/&quot;&gt;contentedweb.github.io&lt;/a&gt;&amp;quot;. You can give the repository a description if you want. Keep the repository public (since you will anyway be creating a public website from it) and ensure you &lt;strong&gt;tick the &amp;quot;Include all branches&amp;quot; checkbox&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The click on the green &amp;quot;Create repository from template&amp;quot; button to copy the repository to your GitHub account. After a few seconds you will see a screen like this which shows the code of your new repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Step 3 - enable GitHub Pages&lt;/h3&gt;
+&lt;p&gt;Next we need to turn on GitHub Pages. To do so click on &amp;quot;Settings&amp;quot; in the above screen and then click on &amp;quot;Pages&amp;quot; towards the bottom of the left-hand menu. You will see the following screen:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Change the part where it says &amp;quot;Branch: &lt;strong&gt;master&lt;/strong&gt;&amp;quot;, to &amp;quot;Branch: &lt;strong&gt;gh-pages&lt;/strong&gt;&amp;quot;. To do so click on the button and choose &amp;quot;gh-pages&amp;quot; from the drop down:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It should then look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If you wish to run your site under a custom domain, enter the domain name in the appropriate field above. You will have to configure your &lt;a href=&quot;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site&quot;&gt;domain name to point to GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Step 4 - build and publish your site&lt;/h3&gt;
+&lt;p&gt;To Do.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -33,42 +57,6 @@
 &lt;p&gt;Bonne année!&lt;/p&gt;
 &lt;p&gt;Schéint Neit Joer!!!&lt;/p&gt;
 &lt;p&gt;🥂🍷🍸🍾🍹&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Post Two</title>
-		<link href="https://templ.contentedweb.com/posts/2021/post-two/"/>
-		<updated>2021-12-23T08:00:01Z</updated>
-		<id>https://templ.contentedweb.com/posts/2021/post-two/</id>
-		<content type="html">&lt;h2&gt;Travelling&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You fly off to a strange land, eagerly abandoning all the comforts of home, and then expend vast quantities of time and money in a largely futile effort to recapture the comforts that you wouldn&#39;t have lost if you hadn&#39;t left home in the first place.&lt;br /&gt;
-Bill Bryson, Neither Here Nor There&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;If you don&#39;t know where you&#39;re going, you&#39;ll end up someplace else.&lt;br /&gt;
-Yogi Bera&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;There is no such thing as bad weather, only bad clothing.&lt;br /&gt;
-An old Tibetian saying&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Not all those who wander are lost.&lt;br /&gt;
-J.R.R.Tolkien, Fellowship of the Ring&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Post One</title>
-		<link href="https://templ.contentedweb.com/posts/2020/post-one/"/>
-		<updated>2020-12-25T00:00:00Z</updated>
-		<id>https://templ.contentedweb.com/posts/2020/post-one/</id>
-		<content type="html">&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/wheel.png&quot; alt=&quot;Frosty trees seen through a large hamster wheel.&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Christmas Day, 2020&lt;/p&gt;
----
 </content>
 	</entry>
 </feed>
