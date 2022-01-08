@@ -26,3 +26,9 @@ Once your account is created, login and keep a note of your username.
 Next you need to copy the repository of the template site to you account. To do this go to the [eleventy-forestry-starter](https://github.com/contentedweb/eleventy-forestry-starter) repository. You will see a screen that looks like this:
 
 ![](/assets/images/eleventy-starter-1.png)
+
+There are two ways to copy this repository into your account. You can either click on the "Fork" button towards the top right of the screen or you can click on the green "Use this template" button. In this guide we will do the latter. So click on that button.
+
+You will
+
+ 
