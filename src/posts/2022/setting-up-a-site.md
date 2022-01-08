@@ -33,8 +33,26 @@ There are two ways to copy this repository into your account. You can either cli
 
 For the repository name use the following: "**your-username**.github.io". So in the above example we would enter "contentedweb.github.io". You can give the repository a description if you want. Keep the repository public (since you will anyway be creating a public website from it) and ensure you **tick the "Include all branches" checkbox**.
 
-The click on the green "Create repository from template" button to copy the repository to your GitHub account. After a few seconds you will see a screen like this which shows the code of your new repository.
+The click on the green "Create repository from template" button to copy the repository to your GitHub account. After a few seconds you will see a screen like this which shows the code of your new repository:
 
-### Step 3 - enable workflows
+![](/assets/images/eleventy-starter-3.png)
 
-The repository includes some work flows which GitHub disables by default when copying a repository, for security reasons. You need to enable these as they build and publish your site when you are ready to publish changes. To do so click
+### Step 3 - enable GitHub Pages
+
+Next we need to turn on GitHub Pages. To do so click on "Settings" in the above screen and then click on "Pages" towards the bottom of the left-hand menu. You will see the following screen:
+
+![](/assets/images/eleventy-starter-4.png)
+
+Change the part where it says "Branch: **master**", to "Branch: **gh-pages**". To do so click on the button and choose "gh-pages" from the drop down:
+
+![](/assets/images/eleventy-starter-5.png)
+
+It should then look like this:
+
+![](/assets/images/eleventy-starter-6.png)
+
+If you wish to run your site under a custom domain, enter the domain name in the appropriate field above. You will have to configure your [domain name to point to GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+
+### Step 4 - build and publish your site
+
+To Do.
