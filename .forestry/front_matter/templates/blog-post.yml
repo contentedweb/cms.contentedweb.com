@@ -22,3 +22,5 @@ fields:
   type: tag_list
   default: []
   label: Tags
+pages:
+- src/posts/2022/setting-up-a-site.md
