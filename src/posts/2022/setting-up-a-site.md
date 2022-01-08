@@ -32,3 +32,9 @@ There are two ways to copy this repository into your account. You can either cli
 ![](/assets/images/eleventy-starter-2.png)
 
 For the repository name use the following: "**your-username**.github.io". So in the above example we would enter "contentedweb.github.io". You can give the repository a description if you want. Keep the repository public (since you will anyway be creating a public website from it) and ensure you **tick the "Include all branches" checkbox**.
+
+The click on the green "Create repository from template" button to copy the repository to your GitHub account. After a few seconds you will see a screen like this which shows the code of your new repository.
+
+### Step 3 - enable workflows
+
+The repository includes some work flows which GitHub disables by default when copying a repository, for security reasons. You need to enable these as they build and publish your site when you are ready to publish changes. To do so click
