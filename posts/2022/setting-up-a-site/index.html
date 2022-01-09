@@ -5,23 +5,23 @@
     <!-- See: https://www.w3schools.com/css/css_rwd_viewport.asp-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Setting up a site</title>
-    <meta name="description" content="Contented CMS - Setup" />
+    <meta name="description" content="Contented CMS" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Contented CMS - Setup" />
-    <meta property="og:description" content="How to setup basic blogging site with Contented CMS" />
+    <meta property="og:title" content="Contented CMS" />
+    <meta property="og:description" content="Basic websites with Contented CMS" />
     <meta property="og:url" content="https://templ.contentedweb.com/posts/2022/setting-up-a-site/" />
-    <meta property="og:site_name" content="Contented CMS - Setup" />
+    <meta property="og:site_name" content="Contented CMS" />
     <meta property="og:image" content="" />
     <link rel="canonical" href="https://templ.contentedweb.com/posts/2022/setting-up-a-site/" />
     <link href="" rel="me" />
     <link rel="icon" href="/assets/images/cwfav.png" type="image.png" size="130x130">
     <link rel="stylesheet" href="/assets/css/style.css" media="all">
-    <link rel="alternate" type="application/rss+xml" title="Contented CMS - Setup RSS" href="/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Contented CMS RSS" href="/feed/" />
 
-    <link rel="alternate" href="/feed/index.xml" type="application/atom+xml" title="Contented CMS - Setup">
-    <link rel="alternate" href="." type="application/json" title="Contented CMS - Setup">
+    <link rel="alternate" href="/feed/index.xml" type="application/atom+xml" title="Contented CMS">
+    <link rel="alternate" href="." type="application/json" title="Contented CMS">
 
  
     <style>
@@ -55,9 +55,9 @@
               <address class="h-card bio">
                 <div class="p-name sitetitle">
                     <img class="u-photo" src="/assets/images/logo.jpg" alt="" />
-                    <a href="/" class="u-url">Contented CMS - Setup</a>
+                    <a href="/" class="u-url">Contented CMS</a>
                 </div>
-                <div class="p-note subtitle">How to setup basic blogging site with Contented CMS</div>
+                <div class="p-note subtitle">Basic websites with Contented CMS</div>
               </address>
             </div>
             <div class="header-nav">
@@ -89,8 +89,8 @@
       </h2>
   </header>
   <h2>Introduction</h2>
-<p>This post will take you through the steps required to setup a site using ContentedWeb.  It is assumed you are comfortable setting up accounts with services like online services, but you do not need any prior experience in using the tools.</p>
-<p>There are two services you need to configure: <a href="https://github.com/">GitHub</a> and <a href="https://forestry.io/">Forestry</a>, in that order. These instructions assume you are new to GitHub and Forestry. If you are an experienced GitHub or Forestry, user you probably don't need them.</p>
+<p>This post will take you through the steps required to setup a site using ContentedWeb.  It is assumed you are comfortable setting up accounts with online services, but you do not need any prior experience in using the tools.</p>
+<p>There are two services you need to configure: <a href="https://github.com/">GitHub</a> and <a href="https://forestry.io/">Forestry</a>, in that order. These instructions assume you are new to GitHub and Forestry. If you are an experienced GitHub or Forestry user, you probably don't need to follow them.</p>
 <h2>GitHub</h2>
 <h3>Step 1 - sign up</h3>
 <p>If you do not already have a GitHub account, you need to create one. Got to the <a href="https://github.com/">GitHub </a>site and click on Sign Up and then follow the instructions.</p>
@@ -101,7 +101,7 @@
 <p>There are two ways to copy this repository into your account. You can either click on the &quot;Fork&quot; button towards the top right of the screen or you can click on the green &quot;Use this template&quot; button. In this guide we will do the latter. So click on that button. You will see a screen like this:</p>
 <p><img src="/assets/images/eleventy-starter-2.png" alt=""></p>
 <p>For the repository name use the following: &quot;<strong>your-username</strong>.github.io&quot;. So in the above example we would enter &quot;<a href="http://contentedweb.github.io">contentedweb.github.io</a>&quot;. You can give the repository a description if you want. Keep the repository public (since you will anyway be creating a public website from it) and ensure you <strong>tick the &quot;Include all branches&quot; checkbox</strong>.</p>
-<p>The click on the green &quot;Create repository from template&quot; button to copy the repository to your GitHub account. After a few seconds you will see a screen like this which shows the code of your new repository:</p>
+<p>Then click on the green &quot;Create repository from template&quot; button to copy the repository to your GitHub account. After a few seconds you will see a screen like this which shows the code of your new repository:</p>
 <p><img src="/assets/images/eleventy-starter-3.png" alt=""></p>
 <h3>Step 3 - enable GitHub Pages</h3>
 <p>Next we need to turn on GitHub Pages. To do so click on &quot;Settings&quot; in the above screen and then click on &quot;Pages&quot; towards the bottom of the left-hand menu. You will see the following screen:</p>
@@ -114,7 +114,7 @@
 <h3>Step 4 - build and publish your site</h3>
 <p>Now it is time to publish your site. To do this click on &quot;Actions&quot; in the menu and then on &quot;Eleventy Build&quot; under the Workflow heading on the left. Then click on &quot;Run workflow&quot; and finally the green &quot;Run workflow&quot; button.</p>
 <p><img src="/assets/images/eleventy-starter-7.png" alt=""></p>
-<p>The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg &quot;<a href="https://yourusername.github.io">https://yourusername.github.io</a>&quot;. If you don't see it, wait a couple more minutes. It can take a little longer until the code has been uploaded and published by GitHub pages.</p>
+<p>The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg &quot;<a href="https://yourusername.github.io">https://yourusername.github.io</a>&quot;. If you don't see it, wait a couple more minutes. It can take a little longer until the HTML pages have been uploaded and published by GitHub pages.</p>
 <h2>Forestry</h2>
 <p>Next you need to configure <a href="https://forestry.io/">Forestry</a>, so that you have a user friendly way of writing and editing content.</p>
 <h3>Step 1 - sign up</h3>
@@ -126,33 +126,33 @@
 <p><img src="/assets/images/eleventy-starter-10.png" alt=""></p>
 <p>and then GitHub:</p>
 <p><img src="/assets/images/eleventy-starter-11.png" alt=""></p>
-<p>Next you have to choose the site from your GitHub repository that you wish to manage through Forestry. If you've been following these instructions you should see your repository setup under GitHub step 2 on this screen.</p>
+<p>Next you have to choose the site from your GitHub repository that you wish to manage through Forestry. If you've been following these instructions you should see the repository you setup under GitHub step 2 on this screen:</p>
 <p><img src="/assets/images/eleventy-starter-12.png" alt=""></p>
-<p>It should default to the master branch. Click Next.</p>
+<p>It should default to the master branch. If not, then choose the master branch as above. Click Next.</p>
 <p>Forestry will import your site into it's system and ask you to complete the setup process. Since the setup for Forestry is already included in the starter kit, simple click on &quot;Mark as done&quot; on the remaining steps in the process:</p>
 <p><img src="/assets/images/eleventy-starter-13.png" alt=""></p>
 <p>And then click on &quot;Complete setup&quot; to finish the setup process:</p>
 <p><img src="/assets/images/eleventy-starter-14.png" alt=""></p>
-<p>Once the setup is complete you will see a screen like this:</p>
+<p>Once setup is complete you will see a screen like this:</p>
 <p><img src="/assets/images/eleventy-starter-15.png" alt=""></p>
 <h3>Step 3 - Personalising your site</h3>
-<p>Now you can start adding and editing content to your site. The first thing to do is change it's title, subtitle and theme. To do this, click on &quot;Data&quot; in the left hand menu and then on &quot;Contented CMS&quot;:</p>
+<p>Now you can start adding and editing content to your site. The first thing to do is change its title, subtitle and theme. To do this, click on &quot;Data&quot; in the left hand menu and then on &quot;Contented CMS&quot;:</p>
 <p><img src="/assets/images/eleventy-starter-16.png" alt=""></p>
 <p>This will open up a form for setting the site's title and other properties:</p>
 <p><img src="/assets/images/eleventy-starter-17.png" alt=""></p>
-<p>When you are done, save the changes. You can also edit the default pages and posts as well as creating news ones.</p>
+<p>When you are done, save the changes. You can also edit the pages and posts as well as creating news ones.</p>
 <p>For more details on how to use the interface, you can read <a href="https://forestry.io/docs/welcome/">Forestry's excellent documentation</a>.</p>
 <h3>Step 4 - publishing your changes</h3>
-<p>Because Contented CMS uses static pages, these need to re-built once you want to publish your changes. By default the site will be re-built every 24 hours at midnight GMT.</p>
+<p>Because Contented CMS uses static pages, these need to re-built once you want to publish your changes. By default the site will be re-build every 24 hours at midnight GMT.</p>
 <p>If you do not wish to wait that long, you can re-build the site manually. To do this you simply have to follow &quot;Step 4 - build and publish your site&quot; in the GitHub section above.</p>
 <h3>Optional Step 5 - use your URL for forestry</h3>
 <p>This step is optional.</p>
-<p>If you do not wish to go to <a href="http://forestry.io">forestry.io</a> to edit your changes, the site can also be configured to run under your own URL using &quot;<a href="http://yourname.github.io/admin/">http://yourname.github.io/admin/</a>&quot; (or whichever domain name you configured for GitHub Pages. To do this go to Settings in the left hand menu, scroll down a little and click on &quot;Deploy Admin&quot;:</p>
+<p>If you do not wish to go to <a href="http://forestry.io">forestry.io</a> to edit your changes, the CMS can also be configured to run under your own URL using &quot;<a href="http://yourname.github.io/admin/">http://yourname.github.io/admin/</a>&quot; (or whichever domain name you configured for GitHub Pages. To do this go to Settings in the left hand menu, scroll down a little and click on &quot;Deploy Admin&quot;:</p>
 <p><img src="/assets/images/eleventy-starter-18.png" alt=""></p>
 <h2>Conclusion</h2>
 <p>You are now all good to go.</p>
 <p>You copied the starter site into your GitHub repository, you setup GitHub Pages and then built and published your site. Next you created a Forestry account and imported the site into Forestry. Finally you made some content changes and published those changes. Your site is now live</p>
-<p>If you had problems with any of the above or further questions on how to use the site, please contact me on Twitter: <a href="https://twitter.com/ContentedW">@ContentedW</a>.</p>
+<p>If you have problems with any of the above or further questions on how to use the site, please contact me on Twitter: <a href="https://twitter.com/ContentedW">@ContentedW</a>.</p>
  
 
   <hr>
@@ -167,7 +167,7 @@
     <footer>
         <div class="footer-area">
             <span class="copy">
-                &copy; 2021 - 2022 Contented CMS - Setup
+                &copy; 2021 - 2022 Contented CMS
                 <br/>
                 <span class="emojis">👍</span>  
             </span> 
