@@ -20,17 +20,17 @@ Few websites are updated so frequently that they need to be generated on the fly
 
 ## Static means static
 
-In the case of the [starter template](https://templ.contentedweb.com/) this includes no client-side JavaScript. This was a design philosophy of mine. There is little need for JavaScript on simple websites. For sure JavaScript has it's uses but it also increases complexity. So for this starter site, there is no client-side JavaScript. This means no config settings for things like Google Analytics or Facebook. This is as much about ethics as statistics. Is the ethics of Google or Facebook tracking every single one of your users worth you knowing how many hits your site had? Server side stats can easily accommodate that and do not require the tracking of your users across the users.
+In the case of the [starter template](https://templ.contentedweb.com/) this includes no client-side JavaScript. This was a design philosophy of mine. There is little need for JavaScript on simple websites. For sure JavaScript has it's uses but it also increases complexity. So for this starter site, there is no client-side JavaScript. This means no config settings for things like Google Analytics or Facebook. This is as much about ethics as statistics. Is the ethics of Google or Facebook tracking every single one of your users worth you knowing how many hits your site had? Server side stats can easily accommodate that and do not require the tracking of your users across the entire web.
 
-Of course since this is only a template site, it is not hard to add the required code for services like Google Analytics. You won't find the how-to for that here though! Just be cool instead😎
+Of course since this is only a template site, it is not hard to add the required code for services like Google Analytics. You won't find the how-to for that here though! Just be cool instead 😎.
 
 ## The tools
 
-After trying out various online services to manage my blog I settled on Forestry and GitHub Pages. There are many other services available, but the combination of these two was the simplest for me. I had two aims when choosing services: keep it simple and keep it simple.
+After trying out various online services to manage my blog I settled on Forestry and GitHub Pages. There are many other services available, but the combination of these two was the simplest for me. I had two aims when choosing services: simple editing and simple hosting.
 
 ### Page generation
 
-I chose Eleventy for my server side static page generation purely because I liked the sound the of it. I didn't want to get involved in any tool where the focus was on client-side rendering or single-page-apps. I wanted a traditional site where is each URL maps to a static file on the server. I also wanted the tool to use a JavaScript, which is a programming language I am somewhat familiar with. What I found was that many tools based no JavaScript seemed go down the client-side rendering route, at least out of the box. Quite possibly this is incorrect, but it doesn't matter. I liked the philosophy behind Eleventy and so got started with that and never looked back.
+I chose Eleventy for my server side static page generation purely because I liked the sound the of it. I didn't want to get involved in any tool where the focus was on client-side rendering or single-page-apps. I wanted a traditional site where each URL maps to a static file on the server. I also wanted the tool to use JavaScript on the server, which is a programming language I am somewhat familiar with. What I found was that many tools based on JavaScript seemed go down the client-side rendering route, at least out of the box. Quite possibly this is incorrect as I didn't evaluate them properly, but it doesn't matter. I liked the philosophy behind Eleventy and so got started with that and never looked back.
 
 ### Editing
 
@@ -42,7 +42,7 @@ For hosting, since the site's code is anyway hosted on GitHub and GitHub offers 
 
 ## Themes
 
-The kit includes some basic the themes so you can easily change the look and feel of the site. Of course since it is all open source and hosted in GitHub you can make more complex styling changes directly in the CSS code and Eleventy templates.
+The kit includes some basic themes so you can easily change the look and feel of the site. ince it is all open source and hosted in GitHub you can make more complex styling changes directly in the CSS code and Eleventy templates.
 
 ## Go Play
 
