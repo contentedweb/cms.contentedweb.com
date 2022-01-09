@@ -64,3 +64,35 @@ The workflow will now run and will take about a minute to complete. Once it has 
 ## Forestry
 
 Next you need to configure [Forestry](https://forestry.io/), so that you have a user friendly way of writing and editing content.
+
+### Step 1 - sign up
+
+Go to the [Forestry](https://forestry.io/) site and click on "Sign up" in the top right corner. In order to keep the process simple, just click on "GitHub" towards the bottom left of the page:
+
+![](/assets/images/eleventy-starter-8.png)
+
+This will use GitHub for authentication and logging into Forestry.  Run through the signup questions. It doesn't matter too much what you enter, but we would recommend "Other / Hobby / Eleventy" for the three questions it asks about your interests.
+
+### Step 2 - add your site
+
+Next click on the "Add site" button on the top right and then choose 11ty:
+
+![](/assets/images/eleventy-starter-10.png)
+
+ and then GitHub:
+
+![](/assets/images/eleventy-starter-11.png)
+
+Next you have to choose the site from your GitHub repository that you wish to manage through Forestry. If you've been following these instructions you should see your repository setup under GitHub step 2 on this screen.
+
+![](/assets/images/eleventy-starter-12.png)
+
+It should default to the master branch. Click Next.
+
+Forestry will import your site into it's system and ask you to complete the setup process. Since the setup for Forestry is already included in the starter kit, simple click on "Mark as done" on the remaining steps in the process:
+
+![](/assets/images/eleventy-starter-13.png)
+
+And then click on "Complete setup" to finish the setup process:
+
+![](/assets/images/eleventy-starter-14.png) 
