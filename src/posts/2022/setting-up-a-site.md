@@ -55,4 +55,8 @@ If you wish to run your site under a custom domain, enter the domain name in the
 
 ### Step 4 - build and publish your site
 
-To Do.
+Now it is time to publish your site. To do this click on "Actions" in the menu and then on "Eleventy Build" under the Workflow heading on the left. Then click on "Run workflow" and finally the green "Run workflow" button. 
+
+![](/assets/images/eleventy-starter-7.png)
+
+The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg "https://yourusername.github.io". If you don't see it, wait a couple more minutes. It can take a little longer until the code has been uploaded and published by GitHub pages.
