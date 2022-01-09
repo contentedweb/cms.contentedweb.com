@@ -1,5 +1,5 @@
 ---
-date: 2022-01-08T06:59:06
+date: 2022-01-08T06:59:06.000+00:00
 tags:
 - github
 - forestry
@@ -60,3 +60,7 @@ Now it is time to publish your site. To do this click on "Actions" in the menu a
 ![](/assets/images/eleventy-starter-7.png)
 
 The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg "https://yourusername.github.io". If you don't see it, wait a couple more minutes. It can take a little longer until the code has been uploaded and published by GitHub pages.
+
+## Forestry
+
+Next you need to configure [Forestry](https://forestry.io/), so that you have a user friendly way of writing and editing content.
