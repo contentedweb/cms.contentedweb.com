@@ -20,7 +20,7 @@ Few websites are updated so frequently that they need to be generated on the fly
 
 ## Static means static
 
-In the case of the [starter template](https://templ.contentedweb.com/) this includes no client-side JavaScript. This was a design philosophy of mine. There is little need for JavaScript on simple websites. For sure JavaScript has it's uses but it also increases complexity. So for this starter site, there is no client-side JavaScript. This means no config settings for things like Google Analytics or Facebook. This is as much about ethics as statics. Is the ethics of Google or Facebook tracking every single one of your users worth you knowing how many hits your site had? Server side stats can easily accommodate that and do not require the tracking of your users across the users.
+In the case of the [starter template](https://templ.contentedweb.com/) this includes no client-side JavaScript. This was a design philosophy of mine. There is little need for JavaScript on simple websites. For sure JavaScript has it's uses but it also increases complexity. So for this starter site, there is no client-side JavaScript. This means no config settings for things like Google Analytics or Facebook. This is as much about ethics as statistics. Is the ethics of Google or Facebook tracking every single one of your users worth you knowing how many hits your site had? Server side stats can easily accommodate that and do not require the tracking of your users across the users.
 
 Of course since this is only a template site, it is not hard to add the required code for services like Google Analytics. You won't find the how-to for that here though! Just be cool instead😎
 
