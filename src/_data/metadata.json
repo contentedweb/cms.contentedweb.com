@@ -1,8 +1,8 @@
 {
-  "title": "CwCMS - Setup",
+  "title": "Contented CMS - Setup",
   "url": "https://templ.contentedweb.com/",
   "language": "en",
-  "description": "How to setup basic blogging site with CwCMS",
+  "description": "How to setup basic blogging site with Contented CMS",
   "startYear": 2021,
   "relme": "https://github.com/contentedweb",
   "theme": "olden",
