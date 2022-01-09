@@ -96,3 +96,11 @@ Forestry will import your site into it's system and ask you to complete the setu
 And then click on "Complete setup" to finish the setup process:
 
 ![](/assets/images/eleventy-starter-14.png) 
+
+Once the setup is complete you will see a screen like this:
+
+![](/assets/images/eleventy-starter-15.png)
+
+### Step 3 - Personalising your site
+
+Now you can start adding and editing content to your site. The first thing to do is change it's title, subtitle and theme. To do this, click on "Data" in the left hand menu:
