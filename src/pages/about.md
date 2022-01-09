@@ -43,3 +43,7 @@ For hosting, since the site's code is anyway hosted on GitHub and GitHub offers 
 ## Themes
 
 The kit includes some basic the themes so you can easily change the look and feel of the site. Of course since it is all open source and hosted in GitHub you can make more complex styling changes directly in the CSS code and Eleventy templates.
+
+## Go Play
+
+So here you have the overview. [Now it's time to go and play](https://github.com/contentedweb/eleventy-forestry-starter). Have fun!
