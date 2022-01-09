@@ -55,7 +55,7 @@ If you wish to run your site under a custom domain, enter the domain name in the
 
 ### Step 4 - build and publish your site
 
-Now it is time to publish your site. To do this click on "Actions" in the menu and then on "Eleventy Build" under the Workflow heading on the left. Then click on "Run workflow" and finally the green "Run workflow" button. 
+Now it is time to publish your site. To do this click on "Actions" in the menu and then on "Eleventy Build" under the Workflow heading on the left. Then click on "Run workflow" and finally the green "Run workflow" button.
 
 ![](/assets/images/eleventy-starter-7.png)
 
@@ -79,7 +79,7 @@ Next click on the "Add site" button on the top right and then choose 11ty:
 
 ![](/assets/images/eleventy-starter-10.png)
 
- and then GitHub:
+and then GitHub:
 
 ![](/assets/images/eleventy-starter-11.png)
 
@@ -95,7 +95,7 @@ Forestry will import your site into it's system and ask you to complete the setu
 
 And then click on "Complete setup" to finish the setup process:
 
-![](/assets/images/eleventy-starter-14.png) 
+![](/assets/images/eleventy-starter-14.png)
 
 Once the setup is complete you will see a screen like this:
 
@@ -103,4 +103,30 @@ Once the setup is complete you will see a screen like this:
 
 ### Step 3 - Personalising your site
 
-Now you can start adding and editing content to your site. The first thing to do is change it's title, subtitle and theme. To do this, click on "Data" in the left hand menu:
+Now you can start adding and editing content to your site. The first thing to do is change it's title, subtitle and theme. To do this, click on "Data" in the left hand menu and then on "Contented CMS":
+
+![](/assets/images/eleventy-starter-16.png)
+
+This will open up a form for setting the site's title and other properties:
+
+![](/assets/images/eleventy-starter-17.png)
+
+When you are done, save the changes. You can also edit the default pages and posts as well as creating news ones.
+
+For more details on how to use the interface, you can read [Forestry's excellent documentation](https://forestry.io/docs/welcome/).  
+
+### Step 4 - publishing your changes
+
+Because Contented CMS uses static pages, these need to re-built once you want to publish your changes. By default the site will be re-built every 24 hours at midnight GMT. 
+
+If you do not wish to wait that long, you can re-build the site manually. To do this you simply have to follow "Step 4 - build and publish your site" in the GitHub section above.
+
+### Optional Step 5 - use your URL for forestry
+
+This step is optional. 
+
+If you do not wish to go to forestry.io to edit your changes, the site can also be configured to run under your own URL using "http://yourname.github.io/admin/" (or whichever domain name you configured for GitHub Pages. To do this go to Settings in the left hand menu, scroll down a little and click on "Deploy Admin":
+
+![](/assets/images/eleventy-starter-18.png)
+
+ 
