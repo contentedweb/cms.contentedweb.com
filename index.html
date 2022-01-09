@@ -5,23 +5,23 @@
     <!-- See: https://www.w3schools.com/css/css_rwd_viewport.asp-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <meta name="description" content="CwCMS - Setup" />
+    <meta name="description" content="Contented CMS - Setup" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="CwCMS - Setup" />
-    <meta property="og:description" content="How to setup basic blogging site with CwCMS" />
+    <meta property="og:title" content="Contented CMS - Setup" />
+    <meta property="og:description" content="How to setup basic blogging site with Contented CMS" />
     <meta property="og:url" content="https://templ.contentedweb.com/" />
-    <meta property="og:site_name" content="CwCMS - Setup" />
+    <meta property="og:site_name" content="Contented CMS - Setup" />
     <meta property="og:image" content="" />
     <link rel="canonical" href="https://templ.contentedweb.com/" />
     <link href="" rel="me" />
     <link rel="icon" href="/assets/images/cwfav.png" type="image.png" size="130x130">
     <link rel="stylesheet" href="/assets/css/style.css" media="all">
-    <link rel="alternate" type="application/rss+xml" title="CwCMS - Setup RSS" href="/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Contented CMS - Setup RSS" href="/feed/" />
 
-    <link rel="alternate" href="/feed/index.xml" type="application/atom+xml" title="CwCMS - Setup">
-    <link rel="alternate" href="." type="application/json" title="CwCMS - Setup">
+    <link rel="alternate" href="/feed/index.xml" type="application/atom+xml" title="Contented CMS - Setup">
+    <link rel="alternate" href="." type="application/json" title="Contented CMS - Setup">
 
 
  
@@ -59,9 +59,9 @@
               <address class="h-card bio">
                 <div class="p-name sitetitle">
                     <img class="u-photo" src="/assets/images/logo.jpg" alt="" />
-                    <a href="/" class="u-url">CwCMS - Setup</a>
+                    <a href="/" class="u-url">Contented CMS - Setup</a>
                 </div>
-                <div class="p-note subtitle">How to setup basic blogging site with CwCMS</div>
+                <div class="p-note subtitle">How to setup basic blogging site with Contented CMS</div>
               </address>
             </div>
             <div class="header-nav">
@@ -128,6 +128,44 @@
 <p>Now it is time to publish your site. To do this click on &quot;Actions&quot; in the menu and then on &quot;Eleventy Build&quot; under the Workflow heading on the left. Then click on &quot;Run workflow&quot; and finally the green &quot;Run workflow&quot; button.</p>
 <p><img src="/assets/images/eleventy-starter-7.png" alt=""></p>
 <p>The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg &quot;<a href="https://yourusername.github.io">https://yourusername.github.io</a>&quot;. If you don't see it, wait a couple more minutes. It can take a little longer until the code has been uploaded and published by GitHub pages.</p>
+<h2>Forestry</h2>
+<p>Next you need to configure <a href="https://forestry.io/">Forestry</a>, so that you have a user friendly way of writing and editing content.</p>
+<h3>Step 1 - sign up</h3>
+<p>Go to the <a href="https://forestry.io/">Forestry</a> site and click on &quot;Sign up&quot; in the top right corner. In order to keep the process simple, just click on &quot;GitHub&quot; towards the bottom left of the page:</p>
+<p><img src="/assets/images/eleventy-starter-8.png" alt=""></p>
+<p>This will use GitHub for authentication and logging into Forestry.  Run through the signup questions. It doesn't matter too much what you enter, but we would recommend &quot;Other / Hobby / Eleventy&quot; for the three questions it asks about your interests.</p>
+<h3>Step 2 - add your site</h3>
+<p>Next click on the &quot;Add site&quot; button on the top right and then choose 11ty:</p>
+<p><img src="/assets/images/eleventy-starter-10.png" alt=""></p>
+<p>and then GitHub:</p>
+<p><img src="/assets/images/eleventy-starter-11.png" alt=""></p>
+<p>Next you have to choose the site from your GitHub repository that you wish to manage through Forestry. If you've been following these instructions you should see your repository setup under GitHub step 2 on this screen.</p>
+<p><img src="/assets/images/eleventy-starter-12.png" alt=""></p>
+<p>It should default to the master branch. Click Next.</p>
+<p>Forestry will import your site into it's system and ask you to complete the setup process. Since the setup for Forestry is already included in the starter kit, simple click on &quot;Mark as done&quot; on the remaining steps in the process:</p>
+<p><img src="/assets/images/eleventy-starter-13.png" alt=""></p>
+<p>And then click on &quot;Complete setup&quot; to finish the setup process:</p>
+<p><img src="/assets/images/eleventy-starter-14.png" alt=""></p>
+<p>Once the setup is complete you will see a screen like this:</p>
+<p><img src="/assets/images/eleventy-starter-15.png" alt=""></p>
+<h3>Step 3 - Personalising your site</h3>
+<p>Now you can start adding and editing content to your site. The first thing to do is change it's title, subtitle and theme. To do this, click on &quot;Data&quot; in the left hand menu and then on &quot;Contented CMS&quot;:</p>
+<p><img src="/assets/images/eleventy-starter-16.png" alt=""></p>
+<p>This will open up a form for setting the site's title and other properties:</p>
+<p><img src="/assets/images/eleventy-starter-17.png" alt=""></p>
+<p>When you are done, save the changes. You can also edit the default pages and posts as well as creating news ones.</p>
+<p>For more details on how to use the interface, you can read <a href="https://forestry.io/docs/welcome/">Forestry's excellent documentation</a>.</p>
+<h3>Step 4 - publishing your changes</h3>
+<p>Because Contented CMS uses static pages, these need to re-built once you want to publish your changes. By default the site will be re-built every 24 hours at midnight GMT.</p>
+<p>If you do not wish to wait that long, you can re-build the site manually. To do this you simply have to follow &quot;Step 4 - build and publish your site&quot; in the GitHub section above.</p>
+<h3>Optional Step 5 - use your URL for forestry</h3>
+<p>This step is optional.</p>
+<p>If you do not wish to go to <a href="http://forestry.io">forestry.io</a> to edit your changes, the site can also be configured to run under your own URL using &quot;<a href="http://yourname.github.io/admin/">http://yourname.github.io/admin/</a>&quot; (or whichever domain name you configured for GitHub Pages. To do this go to Settings in the left hand menu, scroll down a little and click on &quot;Deploy Admin&quot;:</p>
+<p><img src="/assets/images/eleventy-starter-18.png" alt=""></p>
+<h2>Conclusion</h2>
+<p>You are now all good to go.</p>
+<p>You copied the starter site into your GitHub repository, you setup GitHub Pages and then built and published your site. Next you created a Forestry account and imported the site into Forestry. Finally you made some content changes and published those changes. Your site is now live</p>
+<p>If you had problems with any of the above or further questions on how to use the site, please contact me on Twitter: <a href="https://twitter.com/ContentedW">@ContentedW</a>.</p>
 
         <div class="tagged">Tagged:<a href="/archive/tagged/github/" class="post-tag">github</a><a href="/archive/tagged/forestry/" class="post-tag">forestry</a><a href="/archive/tagged/setup/" class="post-tag">setup</a>
         </div>
@@ -164,7 +202,7 @@
     <footer>
         <div class="footer-area">
             <span class="copy">
-                &copy; 2021 - 2022 CwCMS - Setup
+                &copy; 2021 - 2022 Contented CMS - Setup
                 <br/>
                 <span class="emojis">👍</span>  
             </span> 

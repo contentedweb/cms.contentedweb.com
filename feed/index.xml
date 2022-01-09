@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feed/pretty-feed-v3.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>CwCMS - Setup</title>
+	<title>Contented CMS - Setup</title>
 	<subtitle>An eleventy based basic blogging site with Forestry and GitHub Pages baked in  </subtitle>
 	
 	<link href="https://templ.contentedweb.com/feed/index.xml" rel="self"/>
@@ -46,6 +46,44 @@
 &lt;p&gt;Now it is time to publish your site. To do this click on &amp;quot;Actions&amp;quot; in the menu and then on &amp;quot;Eleventy Build&amp;quot; under the Workflow heading on the left. Then click on &amp;quot;Run workflow&amp;quot; and finally the green &amp;quot;Run workflow&amp;quot; button.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg &amp;quot;&lt;a href=&quot;https://yourusername.github.io/&quot;&gt;https://yourusername.github.io&lt;/a&gt;&amp;quot;. If you don&#39;t see it, wait a couple more minutes. It can take a little longer until the code has been uploaded and published by GitHub pages.&lt;/p&gt;
+&lt;h2&gt;Forestry&lt;/h2&gt;
+&lt;p&gt;Next you need to configure &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry&lt;/a&gt;, so that you have a user friendly way of writing and editing content.&lt;/p&gt;
+&lt;h3&gt;Step 1 - sign up&lt;/h3&gt;
+&lt;p&gt;Go to the &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry&lt;/a&gt; site and click on &amp;quot;Sign up&amp;quot; in the top right corner. In order to keep the process simple, just click on &amp;quot;GitHub&amp;quot; towards the bottom left of the page:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This will use GitHub for authentication and logging into Forestry.  Run through the signup questions. It doesn&#39;t matter too much what you enter, but we would recommend &amp;quot;Other / Hobby / Eleventy&amp;quot; for the three questions it asks about your interests.&lt;/p&gt;
+&lt;h3&gt;Step 2 - add your site&lt;/h3&gt;
+&lt;p&gt;Next click on the &amp;quot;Add site&amp;quot; button on the top right and then choose 11ty:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;and then GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Next you have to choose the site from your GitHub repository that you wish to manage through Forestry. If you&#39;ve been following these instructions you should see your repository setup under GitHub step 2 on this screen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-12.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It should default to the master branch. Click Next.&lt;/p&gt;
+&lt;p&gt;Forestry will import your site into it&#39;s system and ask you to complete the setup process. Since the setup for Forestry is already included in the starter kit, simple click on &amp;quot;Mark as done&amp;quot; on the remaining steps in the process:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-13.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And then click on &amp;quot;Complete setup&amp;quot; to finish the setup process:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-14.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once the setup is complete you will see a screen like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-15.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Step 3 - Personalising your site&lt;/h3&gt;
+&lt;p&gt;Now you can start adding and editing content to your site. The first thing to do is change it&#39;s title, subtitle and theme. To do this, click on &amp;quot;Data&amp;quot; in the left hand menu and then on &amp;quot;Contented CMS&amp;quot;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-16.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This will open up a form for setting the site&#39;s title and other properties:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When you are done, save the changes. You can also edit the default pages and posts as well as creating news ones.&lt;/p&gt;
+&lt;p&gt;For more details on how to use the interface, you can read &lt;a href=&quot;https://forestry.io/docs/welcome/&quot;&gt;Forestry&#39;s excellent documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Step 4 - publishing your changes&lt;/h3&gt;
+&lt;p&gt;Because Contented CMS uses static pages, these need to re-built once you want to publish your changes. By default the site will be re-built every 24 hours at midnight GMT.&lt;/p&gt;
+&lt;p&gt;If you do not wish to wait that long, you can re-build the site manually. To do this you simply have to follow &amp;quot;Step 4 - build and publish your site&amp;quot; in the GitHub section above.&lt;/p&gt;
+&lt;h3&gt;Optional Step 5 - use your URL for forestry&lt;/h3&gt;
+&lt;p&gt;This step is optional.&lt;/p&gt;
+&lt;p&gt;If you do not wish to go to &lt;a href=&quot;http://forestry.io/&quot;&gt;forestry.io&lt;/a&gt; to edit your changes, the site can also be configured to run under your own URL using &amp;quot;&lt;a href=&quot;http://yourname.github.io/admin/&quot;&gt;http://yourname.github.io/admin/&lt;/a&gt;&amp;quot; (or whichever domain name you configured for GitHub Pages. To do this go to Settings in the left hand menu, scroll down a little and click on &amp;quot;Deploy Admin&amp;quot;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-18.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;You are now all good to go.&lt;/p&gt;
+&lt;p&gt;You copied the starter site into your GitHub repository, you setup GitHub Pages and then built and published your site. Next you created a Forestry account and imported the site into Forestry. Finally you made some content changes and published those changes. Your site is now live&lt;/p&gt;
+&lt;p&gt;If you had problems with any of the above or further questions on how to use the site, please contact me on Twitter: &lt;a href=&quot;https://twitter.com/ContentedW&quot;&gt;@ContentedW&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 	
