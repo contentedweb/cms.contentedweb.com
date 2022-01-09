@@ -9,9 +9,9 @@ title: Setting up a site
 ---
 ## Introduction
 
-This post will take you through the steps required to setup a site using ContentedWeb.  It is assumed you are comfortable setting up accounts with services like online services, but you do not need any prior experience in using the tools.
+This post will take you through the steps required to setup a site using ContentedWeb.  It is assumed you are comfortable setting up accounts with online services, but you do not need any prior experience in using the tools.
 
-There are two services you need to configure: [GitHub](https://github.com/) and [Forestry](https://forestry.io/), in that order. These instructions assume you are new to GitHub and Forestry. If you are an experienced GitHub or Forestry, user you probably don't need them.
+There are two services you need to configure: [GitHub](https://github.com/) and [Forestry](https://forestry.io/), in that order. These instructions assume you are new to GitHub and Forestry. If you are an experienced GitHub or Forestry user, you probably don't need to follow them.
 
 ## GitHub
 
@@ -33,7 +33,7 @@ There are two ways to copy this repository into your account. You can either cli
 
 For the repository name use the following: "**your-username**.github.io". So in the above example we would enter "contentedweb.github.io". You can give the repository a description if you want. Keep the repository public (since you will anyway be creating a public website from it) and ensure you **tick the "Include all branches" checkbox**.
 
-The click on the green "Create repository from template" button to copy the repository to your GitHub account. After a few seconds you will see a screen like this which shows the code of your new repository:
+Then click on the green "Create repository from template" button to copy the repository to your GitHub account. After a few seconds you will see a screen like this which shows the code of your new repository:
 
 ![](/assets/images/eleventy-starter-3.png)
 
@@ -59,7 +59,7 @@ Now it is time to publish your site. To do this click on "Actions" in the menu a
 
 ![](/assets/images/eleventy-starter-7.png)
 
-The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg "https://yourusername.github.io". If you don't see it, wait a couple more minutes. It can take a little longer until the code has been uploaded and published by GitHub pages.
+The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg "https://yourusername.github.io". If you don't see it, wait a couple more minutes. It can take a little longer until the HTML pages have been uploaded and published by GitHub pages.
 
 ## Forestry
 
@@ -83,11 +83,11 @@ and then GitHub:
 
 ![](/assets/images/eleventy-starter-11.png)
 
-Next you have to choose the site from your GitHub repository that you wish to manage through Forestry. If you've been following these instructions you should see your repository setup under GitHub step 2 on this screen.
+Next you have to choose the site from your GitHub repository that you wish to manage through Forestry. If you've been following these instructions you should see the repository you setup under GitHub step 2 on this screen:
 
 ![](/assets/images/eleventy-starter-12.png)
 
-It should default to the master branch. Click Next.
+It should default to the master branch. If not, then choose the master branch as above. Click Next.
 
 Forestry will import your site into it's system and ask you to complete the setup process. Since the setup for Forestry is already included in the starter kit, simple click on "Mark as done" on the remaining steps in the process:
 
@@ -97,13 +97,13 @@ And then click on "Complete setup" to finish the setup process:
 
 ![](/assets/images/eleventy-starter-14.png)
 
-Once the setup is complete you will see a screen like this:
+Once setup is complete you will see a screen like this:
 
 ![](/assets/images/eleventy-starter-15.png)
 
 ### Step 3 - Personalising your site
 
-Now you can start adding and editing content to your site. The first thing to do is change it's title, subtitle and theme. To do this, click on "Data" in the left hand menu and then on "Contented CMS":
+Now you can start adding and editing content to your site. The first thing to do is change its title, subtitle and theme. To do this, click on "Data" in the left hand menu and then on "Contented CMS":
 
 ![](/assets/images/eleventy-starter-16.png)
 
@@ -111,30 +111,28 @@ This will open up a form for setting the site's title and other properties:
 
 ![](/assets/images/eleventy-starter-17.png)
 
-When you are done, save the changes. You can also edit the default pages and posts as well as creating news ones.
+When you are done, save the changes. You can also edit the pages and posts as well as creating news ones.
 
-For more details on how to use the interface, you can read [Forestry's excellent documentation](https://forestry.io/docs/welcome/).  
+For more details on how to use the interface, you can read [Forestry's excellent documentation](https://forestry.io/docs/welcome/).
 
 ### Step 4 - publishing your changes
 
-Because Contented CMS uses static pages, these need to re-built once you want to publish your changes. By default the site will be re-built every 24 hours at midnight GMT. 
+Because Contented CMS uses static pages, these need to re-built once you want to publish your changes. By default the site will be re-build every 24 hours at midnight GMT.
 
 If you do not wish to wait that long, you can re-build the site manually. To do this you simply have to follow "Step 4 - build and publish your site" in the GitHub section above.
 
 ### Optional Step 5 - use your URL for forestry
 
-This step is optional. 
+This step is optional.
 
-If you do not wish to go to forestry.io to edit your changes, the site can also be configured to run under your own URL using "http://yourname.github.io/admin/" (or whichever domain name you configured for GitHub Pages. To do this go to Settings in the left hand menu, scroll down a little and click on "Deploy Admin":
+If you do not wish to go to forestry.io to edit your changes, the CMS can also be configured to run under your own URL using "http://yourname.github.io/admin/" (or whichever domain name you configured for GitHub Pages. To do this go to Settings in the left hand menu, scroll down a little and click on "Deploy Admin":
 
 ![](/assets/images/eleventy-starter-18.png)
 
 ## Conclusion
 
-You are now all good to go. 
+You are now all good to go.
 
 You copied the starter site into your GitHub repository, you setup GitHub Pages and then built and published your site. Next you created a Forestry account and imported the site into Forestry. Finally you made some content changes and published those changes. Your site is now live
 
-If you had problems with any of the above or further questions on how to use the site, please contact me on Twitter: [@ContentedW](https://twitter.com/ContentedW).
-
- 
+If you have problems with any of the above or further questions on how to use the site, please contact me on Twitter: [@ContentedW](https://twitter.com/ContentedW).
