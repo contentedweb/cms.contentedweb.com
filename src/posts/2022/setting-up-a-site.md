@@ -129,4 +129,12 @@ If you do not wish to go to forestry.io to edit your changes, the site can also 
 
 ![](/assets/images/eleventy-starter-18.png)
 
+## Conclusion
+
+You are now all good to go. 
+
+You copied the starter site into your GitHub repository, you setup GitHub Pages and then built and published your site. Next you created a Forestry account and imported the site into Forestry. Finally you made some content changes and published those changes. Your site is now live
+
+If you had problems with any of the above or further questions on how to use the site, please contact me on Twitter: [@ContentedW](https://twitter.com/ContentedW).
+
  
