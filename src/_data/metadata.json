@@ -5,7 +5,7 @@
   "description": "How to setup basic blogging site with Contented CMS",
   "startYear": 2021,
   "relme": "https://github.com/contentedweb",
-  "theme": "olden",
+  "theme": "sky",
   "feed": {
     "subtitle": "An eleventy based basic blogging site with Forestry and GitHub Pages baked in  ",
     "filename": "index.xml",
@@ -13,9 +13,9 @@
     "id": "https://templ.contentedweb.com/"
   },
   "author": {
-    "name": "Kalinka",
+    "name": "ContentedWeb",
     "email": "admin@contentedweb.com",
-    "url": "https://templ.contentedweb.com/about/"
+    "url": "https://cms.contentedweb.com/about/"
   },
   "css": {
     "headerBgColor": "#F2E3A9",
