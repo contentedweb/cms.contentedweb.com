@@ -17,7 +17,7 @@ There are two services you need to configure: [GitHub](https://github.com/) and 
 
 ### Step 1 - sign up
 
-If you do not already have a GitHub account, you need to create one. Got to the [GitHub ](https://github.com/)site and click on Sign Up and then follow the instructions.
+If you do not already have a GitHub account, you need to create one. Go to the [GitHub ](https://github.com/)site, click on "Sign Up" and follow the instructions.
 
 Once your account is created, login and keep a note of your username.
 
@@ -63,7 +63,7 @@ The workflow will now run and will take about a minute to complete. Once it has 
 
 ## Forestry
 
-Next you need to configure [Forestry](https://forestry.io/), so that you have a user friendly way of writing and editing content.
+Next you need to configure [Forestry](https://forestry.io/), so that you have a user friendly way of creating and editing content.
 
 ### Step 1 - sign up
 
@@ -121,7 +121,7 @@ Because Contented CMS uses static pages, these need to re-built once you want to
 
 If you do not wish to wait that long, you can re-build the site manually. To do this you simply have to follow "Step 4 - build and publish your site" in the GitHub section above.
 
-### Optional Step 5 - use your URL for forestry
+### Optional Step 5 - use your URL for Forestry
 
 This step is optional.
 
