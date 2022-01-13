@@ -23,5 +23,6 @@ fields:
   default: []
   label: Tags
 pages:
+- src/posts/2022/posts-overview.md
 - src/posts/2022/setting-up-a-site.md
 - src/posts/2022/site-overview.md
