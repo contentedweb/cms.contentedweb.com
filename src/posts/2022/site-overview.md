@@ -20,7 +20,7 @@ This the page displayed when you visit the root of your site. It includes, below
 
 ### Archive
 
-This page contains a pageable list of all the posts on the blog. By default it also contains a list to a page of [all the posts on the site grouped by year](/archive/all-posts/) and a page with a [clickable link of tags use on the blog](/archive/tags/).
+This page contains a pageable list of all the posts on the blog. By default it also contains a list to a page of [all the posts on the site grouped by year](/archive/all-posts/) and a page with a [clickable link of tags use on the blog](/archive/tags/). This page is configured to appear in the header menu. 
 
 ### Another Page
 
@@ -30,4 +30,10 @@ A blank page serving as an example standard page in the blog.
 
 It is good practice for all sites to have an [accessibility statement](/pages/accessibility/), as this can help persons with disabilities get around your site. The template is by default fully accessible and the statement reflects that.
 
+### About this site
 
+This is a page on which you can describe [what your site is about](/pages/about/). It appears in the header menu.
+
+### 404.md
+
+This is the page that appears when a user visits a page that doesn't exist. It is [the error page](/pages/404/).
