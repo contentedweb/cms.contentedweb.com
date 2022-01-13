@@ -69,3 +69,7 @@ This defines the name of the page in the menu. Use this if the page has a long t
 #### Menu - Order
 
 This defines the location of the page within the menu. Lower numbers appear further to the left, higher numbers further to the right in the menu. It is good practice to use intervals of 10 so that you can add pages in between others without having to change modify this setting on all pages in the menu.
+
+## RSS Feed
+
+The site also comes with an [RSS feed](/feed/) that enables users to track updates to your site using a feed reader. This feed is pre-configured and cannot be altered. 
