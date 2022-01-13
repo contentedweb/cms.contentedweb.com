@@ -20,7 +20,7 @@ This the page displayed when you visit the root of your site. It includes, below
 
 ### Archive
 
-This page contains a pageable list of all the posts on the blog. By default it also contains a list to a page of [all the posts on the site grouped by year](/archive/all-posts/) and a page with a [clickable link of tags use on the blog](/archive/tags/). This page is configured to appear in the header menu. 
+This page contains a pageable list of all the posts on the blog. By default it also contains a list to a page of [all the posts on the site grouped by year](/archive/all-posts/) and a page with a [clickable link of tags use on the blog](/archive/tags/). This page is configured to appear in the header menu.
 
 ### Another Page
 
@@ -28,7 +28,7 @@ A blank page serving as an example standard page in the blog.
 
 ### Accessibility Statement
 
-It is good practice for all sites to have an [accessibility statement](/pages/accessibility/), as this can help persons with disabilities get around your site. The template is by default fully accessible and the statement reflects that.
+It is good practice for all sites to have an [accessibility statement](/pages/accessibility/), as this can help persons with disabilities get around your site. The template is by default fully accessible and the statement reflects that. It is configured to appear in the footer menu.
 
 ### About this site
 
@@ -48,7 +48,7 @@ There a few settings you can configure when editing a page:
 
 This is the title of the page and appears just before the content you create for the page.
 
-### Menu Location 
+### Menu Location
 
 This drop down enables you to place the page in preconfigured menus. Currently there are three options:
 
@@ -72,4 +72,4 @@ This defines the location of the page within the menu. Lower numbers appear furt
 
 ## RSS Feed
 
-The site also comes with an [RSS feed](/feed/) that enables users to track updates to your site using a feed reader. This feed is pre-configured and cannot be altered. 
+The site also comes with an [RSS feed](/feed/) that enables users to track updates to your site using a feed reader. This feed is pre-configured. There are a couple of properties of the feed that can be altered in the "Data" section of the CMS.
