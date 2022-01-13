@@ -90,6 +90,92 @@
     
       <article>
         <header>
+          <h2><a href="/posts/2022/site-overview/">Pages overview</a></h2>
+          <time datetime="2022-01-13 10-42-17">
+            <span class="date-day">13</span> 
+            <span class="date-month">January</span>, 
+            <span class="date-year">2022</span>
+          </time>
+        </header>
+        <h2>Pages</h2>
+<p>The default site comes with a number of pages setup:</p>
+<p><img src="/assets/images/site-overview-1.png" alt=""></p>
+<p>These pages serve certain purposes, as described here:</p>
+<h3>Homepage</h3>
+<p>This the page displayed when you visit the root of your site. It includes, below the content you add via Forestry, the last 20 posts on your site. This is hardcoded and can't be changed at the moment as this is meant to be template for a blogging site.</p>
+<h3>Archive</h3>
+<p>This page contains a pageable list of all the posts on the blog. By default it also contains a list to a page of <a href="/archive/all-posts/">all the posts on the site grouped by year</a> and a page with a <a href="/archive/tags/">clickable link of tags use on the blog</a>. This page is configured to appear in the header menu.</p>
+<h3>Another Page</h3>
+<p>A blank page serving as an example standard page in the blog.</p>
+<h3>Accessibility Statement</h3>
+<p>It is good practice for all sites to have an <a href="/pages/accessibility/">accessibility statement</a>, as this can help persons with disabilities get around your site. The template is by default fully accessible and the statement reflects that. It is configured to appear in the footer menu.</p>
+<h3>About this site</h3>
+<p>This is a page on which you can describe <a href="/pages/about/">what your site is about</a>. It appears in the header menu.</p>
+<h3><a href="http://404.md">404.md</a></h3>
+<p>This is the page that appears when a user visits a page that doesn't exist. It is <a href="/pages/404/">the error page</a>.</p>
+<h2>Page settings</h2>
+<p>There a few settings you can configure when editing a page:</p>
+<p><img src="/assets/images/site-overview-2.png" alt=""></p>
+<h3>Title</h3>
+<p>This is the title of the page and appears just before the content you create for the page.</p>
+<h3>Menu Location</h3>
+<p>This drop down enables you to place the page in preconfigured menus. Currently there are three options:</p>
+<ul>
+<li>none - page does not appear in a menu</li>
+<li>top - page appears in the header menu</li>
+<li>bottom - page appears in the footer menu</li>
+</ul>
+<h3>Menu</h3>
+<p>If you configure the page to appear in a menu you can modify how it appears there. This is done in the menu sub-setting:</p>
+<p><img src="/assets/images/site-overview-3.png" alt=""></p>
+<h4>Menu - Title</h4>
+<p>This defines the name of the page in the menu. Use this if the page has a long title, but you want something shorter to appear in the menu</p>
+<h4>Menu - Order</h4>
+<p>This defines the location of the page within the menu. Lower numbers appear further to the left, higher numbers further to the right in the menu. It is good practice to use intervals of 10 so that you can add pages in between others without having to change modify this setting on all pages in the menu.</p>
+<h2>RSS Feed</h2>
+<p>The site also comes with an <a href="/feed/">RSS feed</a> that enables users to track updates to your site using a feed reader. This feed is pre-configured. There are a couple of properties of the feed that can be altered in the &quot;Data&quot; section of the CMS.</p>
+
+        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a><a href="/archive/tagged/cms/" class="post-tag">cms</a>
+        </div>
+      </article>      
+      <hr aria-hidden="true"/>
+    
+  
+    
+      <article>
+        <header>
+          <h2><a href="/posts/2022/posts-overview/">Posts overview</a></h2>
+          <time datetime="2022-01-13 06-16-09">
+            <span class="date-day">13</span> 
+            <span class="date-month">January</span>, 
+            <span class="date-year">2022</span>
+          </time>
+        </header>
+        <h2>Posts</h2>
+<p>You can create and edit blog posts by going to &quot;Posts&quot; in the left hand menu:</p>
+<p><img src="/assets/images/posts-overview-1.png" alt=""></p>
+<p>Here you can create a new post directly in the Posts folder, or browse to a sub-folder and create the post there. You can also create new folders on this screen.  This is done by clicking on the &quot;Create new&quot; button and then choosing either &quot;Post&quot; or &quot;Folder&quot;. I like to group my posts into sub-folders by year. You could also add month sub-folders if you write many posts.</p>
+<p>When you create a new post, you will see the following screen:</p>
+<p><img src="/assets/images/posts-overview-2.png" alt=""></p>
+<h2>Post properties</h2>
+<p>Towards the left are some properties you can configure for the post. The post title, the date to be used for the post and the tags you wish to assign to the post.  These are all fairly explanatory. Note though that the date-time selector has a problem with the time and you might struggle to pick a time in the afternoon. Unfortunately this is an issue in Forestry.</p>
+<h2>Post content</h2>
+<p>On the right hand side of the screen you can write your post content. This is a basic WYSIWYG editor with some styling functionality listed at the bottom. The content is stored in markdown format. You do not need to know markdown to use the WYSIWYG editor. However if you wish to edit the markdown generated by the editor, you can use the three vertical buttons towards the top right to switch into &quot;Raw editor&quot; mode. Markdown is a more user friendly way of writing HTML and you can find out more about <a href="https://commonmark.org/help/">writing in markdown here</a>. You can also click on the keyboard icon at the bottom right to bring up a quick reference guide at any point.</p>
+<p>If markdown doesn't provide the functionality you need, you can also add HTML into the raw editor. Tables is one content type you will need to use HTML for.</p>
+<h2>Preview</h2>
+<p>Whilst editing your post you can click on the preview icon at the top right to see a live preview of your post at any time. There is no need to save your content first. Just click the preview icon to update the preview.</p>
+<h2>Publishing</h2>
+<p>Once you are done editing the post content you need to save it using the &quot;Save&quot; button at the top right. This will save your post so that it is ready for publishing - it will not make your post live. In order to publish the post as soon as you are ready, follow the <a href="/posts/2022/setting-up-a-site/">instructions in GitHub: Step 4 - build and publish your site</a>. Alternatively the system will automatically rebuild your site at midnight every day, so you do not need to manually update the site if publishing the post can wait that long.</p>
+
+        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a><a href="/archive/tagged/cms/" class="post-tag">cms</a>
+        </div>
+      </article>      
+      <hr aria-hidden="true"/>
+    
+  
+    
+      <article>
+        <header>
           <h2><a href="/posts/2022/setting-up-a-site/">Setting up a site</a></h2>
           <time datetime="2022-01-08 06-59-06">
             <span class="date-day">8</span> 
@@ -102,7 +188,7 @@
 <p>There are two services you need to configure: <a href="https://github.com/">GitHub</a> and <a href="https://forestry.io/">Forestry</a>, in that order. These instructions assume you are new to GitHub and Forestry. If you are an experienced GitHub or Forestry user, you probably don't need to follow them.</p>
 <h2>GitHub</h2>
 <h3>Step 1 - sign up</h3>
-<p>If you do not already have a GitHub account, you need to create one. Got to the <a href="https://github.com/">GitHub </a>site and click on Sign Up and then follow the instructions.</p>
+<p>If you do not already have a GitHub account, you need to create one. Go to the <a href="https://github.com/">GitHub </a>site, click on &quot;Sign Up&quot; and follow the instructions.</p>
 <p>Once your account is created, login and keep a note of your username.</p>
 <h3>Step 2 - copy the code</h3>
 <p>Next you need to copy the repository of the template site to you account. To do this go to the <a href="https://github.com/contentedweb/eleventy-forestry-starter">eleventy-forestry-starter</a> repository. You will see a screen that looks like this:</p>
@@ -125,7 +211,7 @@
 <p><img src="/assets/images/eleventy-starter-7.png" alt=""></p>
 <p>The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg &quot;<a href="https://yourusername.github.io">https://yourusername.github.io</a>&quot;. If you don't see it, wait a couple more minutes. It can take a little longer until the HTML pages have been uploaded and published by GitHub pages.</p>
 <h2>Forestry</h2>
-<p>Next you need to configure <a href="https://forestry.io/">Forestry</a>, so that you have a user friendly way of writing and editing content.</p>
+<p>Next you need to configure <a href="https://forestry.io/">Forestry</a>, so that you have a user friendly way of creating and editing content.</p>
 <h3>Step 1 - sign up</h3>
 <p>Go to the <a href="https://forestry.io/">Forestry</a> site and click on &quot;Sign up&quot; in the top right corner. In order to keep the process simple, just click on &quot;GitHub&quot; towards the bottom left of the page:</p>
 <p><img src="/assets/images/eleventy-starter-8.png" alt=""></p>
@@ -154,7 +240,7 @@
 <h3>Step 4 - publishing your changes</h3>
 <p>Because Contented CMS uses static pages, these need to re-built once you want to publish your changes. By default the site will be re-build every 24 hours at midnight GMT.</p>
 <p>If you do not wish to wait that long, you can re-build the site manually. To do this you simply have to follow &quot;Step 4 - build and publish your site&quot; in the GitHub section above.</p>
-<h3>Optional Step 5 - use your URL for forestry</h3>
+<h3>Optional Step 5 - use your URL for Forestry</h3>
 <p>This step is optional.</p>
 <p>If you do not wish to go to <a href="http://forestry.io">forestry.io</a> to edit your changes, the CMS can also be configured to run under your own URL using &quot;<a href="http://yourname.github.io/admin/">http://yourname.github.io/admin/</a>&quot; (or whichever domain name you configured for GitHub Pages. To do this go to Settings in the left hand menu, scroll down a little and click on &quot;Deploy Admin&quot;:</p>
 <p><img src="/assets/images/eleventy-starter-18.png" alt=""></p>

@@ -6,13 +6,81 @@
 	
 	<link href="https://templ.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://templ.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-01-08T06:59:06Z</updated>
+	<updated>2022-01-13T10:42:17Z</updated>
 	<id>https://cms.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Pages overview</title>
+		<link href="https://templ.contentedweb.com/posts/2022/site-overview/"/>
+		<updated>2022-01-13T10:42:17Z</updated>
+		<id>https://templ.contentedweb.com/posts/2022/site-overview/</id>
+		<content type="html">&lt;h2&gt;Pages&lt;/h2&gt;
+&lt;p&gt;The default site comes with a number of pages setup:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/site-overview-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;These pages serve certain purposes, as described here:&lt;/p&gt;
+&lt;h3&gt;Homepage&lt;/h3&gt;
+&lt;p&gt;This the page displayed when you visit the root of your site. It includes, below the content you add via Forestry, the last 20 posts on your site. This is hardcoded and can&#39;t be changed at the moment as this is meant to be template for a blogging site.&lt;/p&gt;
+&lt;h3&gt;Archive&lt;/h3&gt;
+&lt;p&gt;This page contains a pageable list of all the posts on the blog. By default it also contains a list to a page of &lt;a href=&quot;https://templ.contentedweb.com/archive/all-posts/&quot;&gt;all the posts on the site grouped by year&lt;/a&gt; and a page with a &lt;a href=&quot;https://templ.contentedweb.com/archive/tags/&quot;&gt;clickable link of tags use on the blog&lt;/a&gt;. This page is configured to appear in the header menu.&lt;/p&gt;
+&lt;h3&gt;Another Page&lt;/h3&gt;
+&lt;p&gt;A blank page serving as an example standard page in the blog.&lt;/p&gt;
+&lt;h3&gt;Accessibility Statement&lt;/h3&gt;
+&lt;p&gt;It is good practice for all sites to have an &lt;a href=&quot;https://templ.contentedweb.com/pages/accessibility/&quot;&gt;accessibility statement&lt;/a&gt;, as this can help persons with disabilities get around your site. The template is by default fully accessible and the statement reflects that. It is configured to appear in the footer menu.&lt;/p&gt;
+&lt;h3&gt;About this site&lt;/h3&gt;
+&lt;p&gt;This is a page on which you can describe &lt;a href=&quot;https://templ.contentedweb.com/pages/about/&quot;&gt;what your site is about&lt;/a&gt;. It appears in the header menu.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;http://404.md/&quot;&gt;404.md&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is the page that appears when a user visits a page that doesn&#39;t exist. It is &lt;a href=&quot;https://templ.contentedweb.com/pages/404/&quot;&gt;the error page&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Page settings&lt;/h2&gt;
+&lt;p&gt;There a few settings you can configure when editing a page:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/site-overview-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Title&lt;/h3&gt;
+&lt;p&gt;This is the title of the page and appears just before the content you create for the page.&lt;/p&gt;
+&lt;h3&gt;Menu Location&lt;/h3&gt;
+&lt;p&gt;This drop down enables you to place the page in preconfigured menus. Currently there are three options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;none - page does not appear in a menu&lt;/li&gt;
+&lt;li&gt;top - page appears in the header menu&lt;/li&gt;
+&lt;li&gt;bottom - page appears in the footer menu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Menu&lt;/h3&gt;
+&lt;p&gt;If you configure the page to appear in a menu you can modify how it appears there. This is done in the menu sub-setting:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/site-overview-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;Menu - Title&lt;/h4&gt;
+&lt;p&gt;This defines the name of the page in the menu. Use this if the page has a long title, but you want something shorter to appear in the menu&lt;/p&gt;
+&lt;h4&gt;Menu - Order&lt;/h4&gt;
+&lt;p&gt;This defines the location of the page within the menu. Lower numbers appear further to the left, higher numbers further to the right in the menu. It is good practice to use intervals of 10 so that you can add pages in between others without having to change modify this setting on all pages in the menu.&lt;/p&gt;
+&lt;h2&gt;RSS Feed&lt;/h2&gt;
+&lt;p&gt;The site also comes with an &lt;a href=&quot;https://templ.contentedweb.com/feed/&quot;&gt;RSS feed&lt;/a&gt; that enables users to track updates to your site using a feed reader. This feed is pre-configured. There are a couple of properties of the feed that can be altered in the &amp;quot;Data&amp;quot; section of the CMS.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Posts overview</title>
+		<link href="https://templ.contentedweb.com/posts/2022/posts-overview/"/>
+		<updated>2022-01-13T06:16:09Z</updated>
+		<id>https://templ.contentedweb.com/posts/2022/posts-overview/</id>
+		<content type="html">&lt;h2&gt;Posts&lt;/h2&gt;
+&lt;p&gt;You can create and edit blog posts by going to &amp;quot;Posts&amp;quot; in the left hand menu:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/posts-overview-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Here you can create a new post directly in the Posts folder, or browse to a sub-folder and create the post there. You can also create new folders on this screen.  This is done by clicking on the &amp;quot;Create new&amp;quot; button and then choosing either &amp;quot;Post&amp;quot; or &amp;quot;Folder&amp;quot;. I like to group my posts into sub-folders by year. You could also add month sub-folders if you write many posts.&lt;/p&gt;
+&lt;p&gt;When you create a new post, you will see the following screen:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/posts-overview-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Post properties&lt;/h2&gt;
+&lt;p&gt;Towards the left are some properties you can configure for the post. The post title, the date to be used for the post and the tags you wish to assign to the post.  These are all fairly explanatory. Note though that the date-time selector has a problem with the time and you might struggle to pick a time in the afternoon. Unfortunately this is an issue in Forestry.&lt;/p&gt;
+&lt;h2&gt;Post content&lt;/h2&gt;
+&lt;p&gt;On the right hand side of the screen you can write your post content. This is a basic WYSIWYG editor with some styling functionality listed at the bottom. The content is stored in markdown format. You do not need to know markdown to use the WYSIWYG editor. However if you wish to edit the markdown generated by the editor, you can use the three vertical buttons towards the top right to switch into &amp;quot;Raw editor&amp;quot; mode. Markdown is a more user friendly way of writing HTML and you can find out more about &lt;a href=&quot;https://commonmark.org/help/&quot;&gt;writing in markdown here&lt;/a&gt;. You can also click on the keyboard icon at the bottom right to bring up a quick reference guide at any point.&lt;/p&gt;
+&lt;p&gt;If markdown doesn&#39;t provide the functionality you need, you can also add HTML into the raw editor. Tables is one content type you will need to use HTML for.&lt;/p&gt;
+&lt;h2&gt;Preview&lt;/h2&gt;
+&lt;p&gt;Whilst editing your post you can click on the preview icon at the top right to see a live preview of your post at any time. There is no need to save your content first. Just click the preview icon to update the preview.&lt;/p&gt;
+&lt;h2&gt;Publishing&lt;/h2&gt;
+&lt;p&gt;Once you are done editing the post content you need to save it using the &amp;quot;Save&amp;quot; button at the top right. This will save your post so that it is ready for publishing - it will not make your post live. In order to publish the post as soon as you are ready, follow the &lt;a href=&quot;https://templ.contentedweb.com/posts/2022/setting-up-a-site/&quot;&gt;instructions in GitHub: Step 4 - build and publish your site&lt;/a&gt;. Alternatively the system will automatically rebuild your site at midnight every day, so you do not need to manually update the site if publishing the post can wait that long.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Setting up a site</title>
@@ -24,7 +92,7 @@
 &lt;p&gt;There are two services you need to configure: &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry&lt;/a&gt;, in that order. These instructions assume you are new to GitHub and Forestry. If you are an experienced GitHub or Forestry user, you probably don&#39;t need to follow them.&lt;/p&gt;
 &lt;h2&gt;GitHub&lt;/h2&gt;
 &lt;h3&gt;Step 1 - sign up&lt;/h3&gt;
-&lt;p&gt;If you do not already have a GitHub account, you need to create one. Got to the &lt;a href=&quot;https://github.com/&quot;&gt;GitHub &lt;/a&gt;site and click on Sign Up and then follow the instructions.&lt;/p&gt;
+&lt;p&gt;If you do not already have a GitHub account, you need to create one. Go to the &lt;a href=&quot;https://github.com/&quot;&gt;GitHub &lt;/a&gt;site, click on &amp;quot;Sign Up&amp;quot; and follow the instructions.&lt;/p&gt;
 &lt;p&gt;Once your account is created, login and keep a note of your username.&lt;/p&gt;
 &lt;h3&gt;Step 2 - copy the code&lt;/h3&gt;
 &lt;p&gt;Next you need to copy the repository of the template site to you account. To do this go to the &lt;a href=&quot;https://github.com/contentedweb/eleventy-forestry-starter&quot;&gt;eleventy-forestry-starter&lt;/a&gt; repository. You will see a screen that looks like this:&lt;/p&gt;
@@ -47,7 +115,7 @@
 &lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The workflow will now run and will take about a minute to complete. Once it has completed, your site should be live under the URL configured in step 3, eg &amp;quot;&lt;a href=&quot;https://yourusername.github.io/&quot;&gt;https://yourusername.github.io&lt;/a&gt;&amp;quot;. If you don&#39;t see it, wait a couple more minutes. It can take a little longer until the HTML pages have been uploaded and published by GitHub pages.&lt;/p&gt;
 &lt;h2&gt;Forestry&lt;/h2&gt;
-&lt;p&gt;Next you need to configure &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry&lt;/a&gt;, so that you have a user friendly way of writing and editing content.&lt;/p&gt;
+&lt;p&gt;Next you need to configure &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry&lt;/a&gt;, so that you have a user friendly way of creating and editing content.&lt;/p&gt;
 &lt;h3&gt;Step 1 - sign up&lt;/h3&gt;
 &lt;p&gt;Go to the &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry&lt;/a&gt; site and click on &amp;quot;Sign up&amp;quot; in the top right corner. In order to keep the process simple, just click on &amp;quot;GitHub&amp;quot; towards the bottom left of the page:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -76,7 +144,7 @@
 &lt;h3&gt;Step 4 - publishing your changes&lt;/h3&gt;
 &lt;p&gt;Because Contented CMS uses static pages, these need to re-built once you want to publish your changes. By default the site will be re-build every 24 hours at midnight GMT.&lt;/p&gt;
 &lt;p&gt;If you do not wish to wait that long, you can re-build the site manually. To do this you simply have to follow &amp;quot;Step 4 - build and publish your site&amp;quot; in the GitHub section above.&lt;/p&gt;
-&lt;h3&gt;Optional Step 5 - use your URL for forestry&lt;/h3&gt;
+&lt;h3&gt;Optional Step 5 - use your URL for Forestry&lt;/h3&gt;
 &lt;p&gt;This step is optional.&lt;/p&gt;
 &lt;p&gt;If you do not wish to go to &lt;a href=&quot;http://forestry.io/&quot;&gt;forestry.io&lt;/a&gt; to edit your changes, the CMS can also be configured to run under your own URL using &amp;quot;&lt;a href=&quot;http://yourname.github.io/admin/&quot;&gt;http://yourname.github.io/admin/&lt;/a&gt;&amp;quot; (or whichever domain name you configured for GitHub Pages. To do this go to Settings in the left hand menu, scroll down a little and click on &amp;quot;Deploy Admin&amp;quot;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/eleventy-starter-18.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
